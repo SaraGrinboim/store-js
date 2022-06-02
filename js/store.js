@@ -65,7 +65,7 @@ class Store {
         if (typeof (manager) === User)
             this.#manager = manager
         this.#products = [];
-        this.#manager = manager
+        this.#manager = manager;
         this.#storeName = storeName;
         this.#storeDescription = storeDescription;
         this.#logoUrl = logoUrl;
