@@ -1,0 +1,46 @@
+
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'calibri light';
+    margin: 4%;
+  
+}
+/* .conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 4%;
+    width: auto;
+
+} */
+.detailes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+    /* margin: 200px; */
+    width: auto;
+    width: 100%;
+}
+.store{
+    border: 6px dotted rgb(0, 200, 255);
+    padding: 4%;
+    margin: 4%;
+    
+}
+.manager{
+    border: 6px dotted rgb(255, 242, 0);
+    padding: 4%;
+    margin: 4%;
+}
+.title{
+    border: 6px dotted rgb(255, 0, 25);
+    text-align: center;
+    padding: 4%;
+}
+.title2{
+    text-align: center;
+}
