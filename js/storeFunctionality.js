@@ -1,3 +1,4 @@
+
 let store
 function load() {
     store = localStorage.getItem('store')
